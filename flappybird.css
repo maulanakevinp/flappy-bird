@@ -1,6 +1,14 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Menetapkan tinggi 100% dari viewport height */
+    overflow: hidden;
+    /* Mencegah scroll horizontal */
 }
 
 #board {
